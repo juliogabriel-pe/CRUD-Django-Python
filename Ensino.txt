@@ -1,0 +1,15 @@
+django-admin startproject (Nome do Projeto) = Este comando vai criar um template do django onde vc criar seu "APP".
+
+django-admin startapp (Nome do APP) = Criar um novo aplicativo dentro de um projeto Django existente.
+
+models.py: Este arquivo é usado para definir os modelos de dados do aplicativo usando classes Python. Os modelos representam as tabelas do banco de dados e são usados para armazenar e recuperar informações.
+
+views.py: Neste arquivo, você define as funções ou classes de visualização que respondem a solicitações de URL e retornam respostas HTTP. As visualizações são responsáveis por processar a lógica de negócios do aplicativo e renderizar as respostas.
+
+urls.py: Aqui você define as URLs que o aplicativo irá responder. Você mapeia as URLs para as visualizações correspondentes, especificando padrões de URL e funções ou classes de visualização.
+
+admin.py: Se você pretende usar a interface de administração do Django, este arquivo é usado para registrar os modelos do aplicativo para que possam ser gerenciados através da interface.
+
+1° passo = Criar a rota(URLs); 2° passo = Criar a visualização(views); 3° passo = Criar HTML.
+
+python .\manage.py runserver (OBS: Dentro da pasta onde se encontra o manage.py) = Django para iniciar o servidor de desenvolvimento embutido. Quando você executa essa linha de comando, o Django inicia um servidor web local que permite que você teste e visualize o seu projeto Django no seu computador.

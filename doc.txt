@@ -1,0 +1,4 @@
+* Tem que ter instalado o Django = pip install django *
+
+Nome do Projeto = crudDjango
+Nome do APP = appCRUD
